@@ -1,5 +1,10 @@
 import React from "react";
+import { ChatTeardropDots } from "phosphor-react";
 
 export function Widget() {
-  return <div>Widget</div>;
+  return (
+    <div>
+      <ChatTeardropDots size={100} weight="thin" />
+    </div>
+  );
 }
